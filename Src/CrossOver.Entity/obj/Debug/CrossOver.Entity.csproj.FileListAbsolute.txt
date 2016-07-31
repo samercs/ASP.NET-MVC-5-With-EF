@@ -1,0 +1,14 @@
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\CrossOver.Entity.dll.config
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\CrossOver.Entity.dll
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\CrossOver.Entity.pdb
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\EntityFramework.dll
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\EntityFramework.xml
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.csprojResolveAssemblyReference.cache
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.dll
+C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.pdb
