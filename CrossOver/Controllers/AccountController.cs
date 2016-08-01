@@ -23,10 +23,14 @@ namespace CrossOver.Controllers
     {
         private SignInManager _signInManager;
         private UserManager _userManager;
+        private readonly ApiService _apiService;
+        private readonly UserService _userService;
 
         public AccountController(IAppService appService) : base(appService)
         {
             _userManager = new UserManager(appService.DataContextFactory);
+            _apiService = new ApiService();
+            _userService = new UserService(DataContextFactory);
         }
 
        
@@ -66,9 +70,19 @@ namespace CrossOver.Controllers
             CookieService.Add(CookieKeys.DisplayName, result.FirstName, DateTime.Today.AddYears(10));
             CookieService.Add(CookieKeys.LastSignInEmail, result.Email, DateTime.Today.AddYears(10));
 
+            var webApiUrl = Url.RouteUrl(
+                    "DefaultApi",
+                    new { httproute = "", controller = "token" },
+                    Request.Url.Scheme
+                );
+
+            var user = await _userService.GetUserById(result.Id);
+            user.Token = await _apiService.GetAuthorizationToken(webApiUrl, model.Email, model.Password);
+            await _userService.UpdateUser(user);
+
             return !string.IsNullOrEmpty(returnUrl)
                 ? RedirectToLocal(returnUrl)
-                : RedirectToAction("Index", "Home");
+                : RedirectToAction("Index", "User");
         }
         
         [AllowAnonymous]
@@ -117,7 +131,7 @@ namespace CrossOver.Controllers
 
             SetStatusMessage($"Welcome {user.FirstName}");
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "User");
         }
 
         //

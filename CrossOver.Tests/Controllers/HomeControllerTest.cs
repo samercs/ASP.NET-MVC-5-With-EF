@@ -6,17 +6,24 @@ using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CrossOver;
 using CrossOver.Controllers;
+using CrossOver.Core.Service;
 
 namespace CrossOver.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest
     {
+        private readonly IAppService _appService;
+        public HomeControllerTest(IAppService appService)
+        {
+            _appService = appService;
+        }
+
         [TestMethod]
         public void Index()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            HomeController controller = new HomeController(_appService);
 
             // Act
             ViewResult result = controller.Index() as ViewResult;
@@ -29,7 +36,7 @@ namespace CrossOver.Tests.Controllers
         public void About()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            HomeController controller = new HomeController(_appService);
 
             // Act
             ViewResult result = controller.About() as ViewResult;
@@ -42,7 +49,7 @@ namespace CrossOver.Tests.Controllers
         public void Contact()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            HomeController controller = new HomeController(_appService);
 
             // Act
             ViewResult result = controller.Contact() as ViewResult;

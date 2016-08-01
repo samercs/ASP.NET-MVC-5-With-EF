@@ -12,3 +12,17 @@ C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.csprojResolveAssemblyReference.cache
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.dll
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.csprojResolveAssemblyReference.cache
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\obj\Debug\CrossOver.Entity.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\CrossOver.Entity.dll.config
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\CrossOver.Entity.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\CrossOver.Entity.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\EntityFramework.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\EntityFramework.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

@@ -21,11 +21,8 @@ namespace CrossOver.Controllers
             AuthService = appService.AuthService;
             CookieService = appService.CookieService;
         }
-        // GET: Application
-        public ActionResult Index()
-        {
-            return View();
-        }
+       
+        
 
         public void SetStatusMessage(string message, StatusMessageType statusMessageType = StatusMessageType.Success)
         {

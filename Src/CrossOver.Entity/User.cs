@@ -14,6 +14,7 @@ namespace CrossOver.Entity
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Token { get; set; }
 
         public virtual ICollection<StockCode> StockCodes { get; set; }
 

@@ -11,7 +11,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace CrossOver.Service.Identity
 {
-    public class UserService: ServiceBase
+    public class UserService : ServiceBase
     {
         private readonly UserManager _userManager;
         private readonly RoleManager _roleManager;
@@ -164,6 +164,49 @@ namespace CrossOver.Service.Identity
 
             return validEmail && validPhone;
 
+        }
+
+        public async Task<IEnumerable<StockCode>> GetUserStock(string userId)
+        {
+            var users = _userManager.Users;
+            var user = await users.Include(i => i.StockCodes).FirstOrDefaultAsync(i => i.Id == userId);
+            return user.StockCodes;
+        }
+
+        public async Task<User> AddStock(string id, IList<int> stockCodesList)
+        {
+            using (var dc = DataContext())
+            {
+                var users = _userManager.Users.Include(i => i.StockCodes);
+                var user = await users.Include(i => i.StockCodes).FirstOrDefaultAsync(i => i.Id == id);
+                await ClearUserStockCode(user);
+                user.StockCodes.Clear();
+                var stockCodes = await dc.StockCodes.Include(i => i.Users).Where(i => stockCodesList.Contains(i.StockCodeId)).ToListAsync();
+                foreach (var stockCode in stockCodes)
+                {
+                    user.StockCodes.Add(stockCode);
+                    stockCode.Users.Add(user);
+                    dc.SetModified(stockCode);
+                }
+                dc.SetModified(user);
+                await dc.SaveChangeAsyn();
+                return user;
+            }
+        }
+
+        private async Task ClearUserStockCode(User user)
+        {
+            using (var dc = DataContext())
+            {
+                foreach (var stockCode in user.StockCodes)
+                {
+                    var stockCodeEntity = await 
+                        dc.StockCodes.Include(i => i.Users).FirstOrDefaultAsync(i => i.StockCodeId == stockCode.StockCodeId);
+                    stockCodeEntity.Users.Remove(stockCodeEntity.Users.First(i => i.Id == user.Id));
+                    dc.SetModified(stockCodeEntity);
+                    await dc.SaveChangeAsyn();
+                }
+            }
         }
     }
 }

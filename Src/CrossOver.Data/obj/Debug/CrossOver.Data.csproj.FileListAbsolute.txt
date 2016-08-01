@@ -17,3 +17,24 @@ C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Data\obj\Debug\CrossOver.Data.pdb
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Data\obj\Debug\CrossOver.Data.Migrations.InitMigration.resources
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Data\obj\Debug\CrossOver.Data.csproj.GenerateResource.Cache
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Data\obj\Debug\CrossOver.Data.Migrations.AddStockCodeUserRelation.resources
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\CrossOver.Data.dll.config
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\CrossOver.Data.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\CrossOver.Data.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\CrossOver.Entity.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\EntityFramework.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\CrossOver.Entity.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\EntityFramework.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.csprojResolveAssemblyReference.cache
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.Migrations.InitMigration.resources
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.Migrations.AddStockCodeUserRelation.resources
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.Migrations.InsertStockCodeTestData.resources
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.csproj.GenerateResource.Cache
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.Migrations.AddUserToken.resources

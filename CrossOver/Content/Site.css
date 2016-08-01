@@ -22,3 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.form-button {
+    border-top: solid 1px #ccc;
+    margin-top: 25px;
+    padding-top: 25px;
+}

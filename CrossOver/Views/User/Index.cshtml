@@ -1,0 +1,47 @@
+﻿@model CrossOver.Models.User.IndexViewModel
+
+@{
+    ViewBag.Title = "User Stock";
+    
+}
+
+<h2>User Stock</h2>
+
+@if (!Model.User.StockCodes.Any())
+{
+    <div class="alert alert-warning">
+        No Stock Add for you. you can <a href="@Url.Action("AddStock", "User")">add stock from here</a> .
+    </div>
+}
+else
+{
+    <ul class="list-inline text-right">
+        <li>
+            <a href="@Url.Action("AddStock", "User")">Edit stock codes</a>
+        </li>
+    </ul>
+    <table class="table table-responsive table-bordered table-striped">
+        <tr>
+            <th>
+                Stock Code
+            </th>
+            <th>
+                Prices
+            </th>
+        </tr>
+        @foreach (var stockCode in Model.UserStockList)
+        {
+            <tr>
+                <td>
+                    @stockCode.StockCode.CodeName
+                </td>
+                <td>
+                    @stockCode.Prices
+                </td>
+            </tr>
+        }
+    </table>
+    
+
+}
+

@@ -189,11 +189,13 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\StockController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Core\Base\StatusMessage.cs" />
     <Compile Include="Core\Configration\CookieKeys.cs" />
     <Compile Include="Core\Extention\HtmlHelperExtensions.cs" />
     <Compile Include="Core\Extention\IdentityExtensions.cs" />
+    <Compile Include="Core\Provider\ApplicationOAuthProvider.cs" />
     <Compile Include="Core\Service\AppService.cs" />
     <Compile Include="Core\Service\AuthService.cs" />
     <Compile Include="Core\Service\CookieService.cs" />
@@ -206,6 +208,8 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\User\AddStockViewModel.cs" />
+    <Compile Include="Models\User\IndexViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -257,14 +261,11 @@
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Account\SendCode.cshtml" />
     <Content Include="Views\Account\VerifyCode.cshtml" />
-    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Manage\ChangePassword.cshtml" />
-    <Content Include="Views\Manage\Index.cshtml" />
-    <Content Include="Views\Manage\ManageLogins.cshtml" />
-    <Content Include="Views\Manage\SetPassword.cshtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\AddStock.cshtml" />
+    <Content Include="Views\User\SetPassword.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

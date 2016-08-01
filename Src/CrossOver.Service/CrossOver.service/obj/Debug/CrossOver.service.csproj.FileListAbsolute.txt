@@ -29,3 +29,34 @@ C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Service\CrossOver.service\bin\Deb
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 C:\Users\samer\Desktop\CrossOver\Src\CrossOver.Service\CrossOver.service\bin\Debug\Newtonsoft.Json.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\CrossOver.service.dll.config
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\CrossOver.service.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\CrossOver.service.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\CrossOver.Data.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\CrossOver.Entity.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\EntityFramework.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.Security.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Newtonsoft.Json.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Owin.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\CrossOver.Data.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\CrossOver.Entity.pdb
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\EntityFramework.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.Security.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\bin\Debug\Newtonsoft.Json.xml
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\obj\Debug\CrossOver.Service.csprojResolveAssemblyReference.cache
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\obj\Debug\CrossOver.service.dll
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Service\CrossOver.service\obj\Debug\CrossOver.service.pdb
