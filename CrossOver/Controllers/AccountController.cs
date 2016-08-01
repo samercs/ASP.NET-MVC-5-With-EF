@@ -33,9 +33,9 @@ namespace CrossOver.Controllers
             _userService = new UserService(DataContextFactory);
         }
 
-       
 
-        
+
+
 
         //
         // GET: /Account/Login
@@ -84,7 +84,7 @@ namespace CrossOver.Controllers
                 ? RedirectToLocal(returnUrl)
                 : RedirectToAction("Index", "User");
         }
-        
+
         [AllowAnonymous]
         public ActionResult Register()
         {
@@ -114,7 +114,7 @@ namespace CrossOver.Controllers
                 CreatedUtc = DateTime.UtcNow,
                 PhoneNumber = model.PhoneNumber,
                 UserName = model.Email
-                
+
             };
 
             var result = await AuthService.CreateUser(user, model.Password);
@@ -128,6 +128,14 @@ namespace CrossOver.Controllers
             CookieService.Add(CookieKeys.DisplayName, user.FirstName, DateTime.Today.AddYears(10));
             CookieService.Add(CookieKeys.LastSignInEmail, user.Email, DateTime.Today.AddYears(10));
 
+            var userData = await _userService.GetUserByEmail(user.Email);
+            var webApiUrl = Url.RouteUrl(
+                    "DefaultApi",
+                    new { httproute = "", controller = "token" },
+                    Request.Url.Scheme
+                );
+            userData.Token = await _apiService.GetAuthorizationToken(webApiUrl, user.Email, model.Password);
+            await _userService.UpdateUser(userData);
 
             SetStatusMessage($"Welcome {user.FirstName}");
 
@@ -135,7 +143,7 @@ namespace CrossOver.Controllers
         }
 
         //
-       
+
 
         //
         // GET: /Account/ForgotPassword
@@ -348,7 +356,7 @@ namespace CrossOver.Controllers
         }
 
         //
-        
+
 
         protected override void Dispose(bool disposing)
         {
