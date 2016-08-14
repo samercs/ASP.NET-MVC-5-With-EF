@@ -38,3 +38,4 @@ E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.csp
 E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.dll
 E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.pdb
 E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.Migrations.AddUserToken.resources
+E:\My Work\ASP.NET-MVC-5-With-EF\Src\CrossOver.Data\obj\Debug\CrossOver.Data.Migrations.AddLanguage.resources

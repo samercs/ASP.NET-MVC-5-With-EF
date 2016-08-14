@@ -190,7 +190,9 @@
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StockController.cs" />
+    <Compile Include="Controllers\TestUiController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Core\Attribute\AutoCompleteUIHintAttribute.cs" />
     <Compile Include="Core\Base\StatusMessage.cs" />
     <Compile Include="Core\Configration\CookieKeys.cs" />
     <Compile Include="Core\Extention\HtmlHelperExtensions.cs" />
@@ -208,6 +210,7 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\TestUi\IndexViewModel.cs" />
     <Compile Include="Models\User\AddStockViewModel.cs" />
     <Compile Include="Models\User\IndexViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -266,6 +269,8 @@
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\User\AddStock.cshtml" />
     <Content Include="Views\User\SetPassword.cshtml" />
+    <Content Include="Views\TestUi\Index.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\AutoComplete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

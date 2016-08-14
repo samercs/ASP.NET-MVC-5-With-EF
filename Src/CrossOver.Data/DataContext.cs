@@ -14,6 +14,7 @@ namespace CrossOver.Data
     public class DataContext: IdentityDbContext<User>, IDataContext
     {
         public IDbSet<StockCode> StockCodes { get; set; }
+        public IDbSet<Language> Languages { get; set; }
 
         public DataContext(): base("DefaultConnection")
         {

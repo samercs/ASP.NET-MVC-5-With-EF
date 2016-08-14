@@ -77,6 +77,10 @@
     <Compile Include="Migrations\201608010017225_AddUserToken.Designer.cs">
       <DependentUpon>201608010017225_AddUserToken.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608131410283_AddLanguage.cs" />
+    <Compile Include="Migrations\201608131410283_AddLanguage.Designer.cs">
+      <DependentUpon>201608131410283_AddLanguage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -102,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608010017225_AddUserToken.resx">
       <DependentUpon>201608010017225_AddUserToken.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608131410283_AddLanguage.resx">
+      <DependentUpon>201608131410283_AddLanguage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOver", "CrossOver\CrossOver.csproj", "{04AE4BFD-DC91-4305-A63E-405DACCE3984}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOver.Web", "CrossOver\CrossOver.Web.csproj", "{04AE4BFD-DC91-4305-A63E-405DACCE3984}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossOver.Tests", "CrossOver.Tests\CrossOver.Tests.csproj", "{054EB3DF-4EC3-4F81-AD06-F5BB1F08D928}"
 EndProject

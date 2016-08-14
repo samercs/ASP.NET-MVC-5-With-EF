@@ -8,6 +8,7 @@ namespace CrossOver.Data
     public interface IDataContext: IDisposable
     {
         IDbSet<StockCode> StockCodes { get; set; }
+        IDbSet<Language> Languages { get; set; }
         int SaveChange();
         Task<int> SaveChangeAsyn();
         void SetModified(object entity);
