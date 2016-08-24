@@ -189,6 +189,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MaterialController.cs" />
     <Compile Include="Controllers\StockController.cs" />
     <Compile Include="Controllers\TestUiController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -219,10 +220,30 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Material-Custom-1.css" />
+    <Content Include="Content\Material-Custom-2.css" />
+    <Content Include="Content\material.css" />
+    <Content Include="Content\material.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\android-logo-white.png" />
+    <Content Include="images\android-logo.png" />
+    <Content Include="images\andy.png" />
+    <Content Include="images\auto-on.jpg" />
+    <Content Include="images\devices.jpg" />
+    <Content Include="images\more-from-1.png" />
+    <Content Include="images\more-from-2.png" />
+    <Content Include="images\more-from-3.png" />
+    <Content Include="images\more-from-4.png" />
+    <Content Include="images\nexus6-on.jpg" />
+    <Content Include="images\nexus9-on.jpg" />
+    <Content Include="images\slide01.jpg" />
+    <Content Include="images\tv-on.jpg" />
+    <Content Include="images\wear-black-on.png" />
+    <Content Include="images\wear-silver-on.png" />
+    <Content Include="images\wear.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\test.pubxml" />
@@ -234,6 +255,8 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\material.js" />
+    <Content Include="Scripts\material.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -271,6 +294,11 @@
     <Content Include="Views\User\SetPassword.cshtml" />
     <Content Include="Views\TestUi\Index.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\AutoComplete.cshtml" />
+    <Content Include="Scripts\material.min.js.map" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
+    <Content Include="Views\Material\Index.cshtml" />
+    <Content Include="Views\Material\Template2.cshtml" />
+    <Content Include="Views\Shared\_Layout3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
