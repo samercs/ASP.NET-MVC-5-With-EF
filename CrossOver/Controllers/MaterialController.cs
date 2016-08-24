@@ -19,6 +19,13 @@ namespace CrossOver.Controllers
             return View();
         }
 
-        
+        public ActionResult Template3(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                return View();
+            }
+            return View("Element");
+        }
     }
 }

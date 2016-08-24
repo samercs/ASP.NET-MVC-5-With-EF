@@ -224,6 +224,10 @@
     <Content Include="Content\Material-Custom-2.css" />
     <Content Include="Content\material.css" />
     <Content Include="Content\material.min.css" />
+    <Content Include="Content\MaterialBootstrap\bootstrap-material-design.css" />
+    <Content Include="Content\MaterialBootstrap\bootstrap-material-design.min.css" />
+    <Content Include="Content\MaterialBootstrap\ripples.css" />
+    <Content Include="Content\MaterialBootstrap\ripples.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -246,6 +250,10 @@
     <Content Include="images\wear.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\MaterialBootstrap\bootstrap-material-design.css.map" />
+    <Content Include="Content\MaterialBootstrap\bootstrap-material-design.min.css.map" />
+    <Content Include="Content\MaterialBootstrap\ripples.css.map" />
+    <Content Include="Content\MaterialBootstrap\ripples.min.css.map" />
     <None Include="Properties\PublishProfiles\test.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -257,6 +265,10 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\material.js" />
     <Content Include="Scripts\material.min.js" />
+    <Content Include="Scripts\MaterialBootstrap\material.js" />
+    <Content Include="Scripts\MaterialBootstrap\material.min.js" />
+    <Content Include="Scripts\MaterialBootstrap\ripples.js" />
+    <Content Include="Scripts\MaterialBootstrap\ripples.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -299,6 +311,11 @@
     <Content Include="Views\Material\Index.cshtml" />
     <Content Include="Views\Material\Template2.cshtml" />
     <Content Include="Views\Shared\_Layout3.cshtml" />
+    <Content Include="Scripts\MaterialBootstrap\material.min.js.map" />
+    <Content Include="Scripts\MaterialBootstrap\ripples.min.js.map" />
+    <Content Include="Views\Shared\_Layout4.cshtml" />
+    <Content Include="Views\Material\Template3.cshtml" />
+    <Content Include="Views\Material\Element.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
